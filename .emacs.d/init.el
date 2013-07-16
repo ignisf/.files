@@ -1,18 +1,20 @@
 (add-to-list 'load-path "~/.emacs.d/elisp")
-
-(load "init-packages.el")
-(load "init-appearance.el")
-(load "init-backups.el")
-(load "init-magit.el")
-(load "init-eshell.el")
-(load "init-newline.el")
-(load "init-yasnippet.el")
-(load "init-delete.el")
-(load "init-expand-region.el")
-(load "init-fic-mode.el")
-(load "init-yaml-mode.el")
-(load "init-haml-mode.el")
-(load "init-rvm.el")
-(load "init-sass.el")
-(load "init-coffee.el")
-(load "init-erc.el")
+ 
+(dolist (element (list "packages"
+		       "appearance"
+		       "backups"
+		       "magit"
+		       "eshell"
+		       "newline"
+		       "yasnippet"
+		       "delete"
+		       "expand-region"
+		       "fic"
+		       "yaml"
+		       "haml"
+		       "rvm"
+		       "sass"
+		       "coffee"
+		       "erc"
+		       "mark-multiple"))
+  (load (format "%s%s%s" "init-" element ".el")))

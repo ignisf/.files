@@ -1,0 +1,4 @@
+.emacs.d/eshell/history
+.emacs.d/url/cookies
+.emacs.d/session.*
+.emacs.d/elpa/archives/*

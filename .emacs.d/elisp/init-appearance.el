@@ -3,6 +3,7 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'load-theme) (load-theme 'adwaita t))
+(if (fboundp 'set-default-font) (set-default-font "Monospace-10"))
 
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)

@@ -18,6 +18,9 @@
 ;; Insert timestamps only on the left side
 (setq erc-insert-timestamp-function 'erc-insert-timestamp-left)
 
+;; Get rid of the header line
+(setq erc-header-line-format nil)
+
 ;; Auto update the fill width on window resize
 (add-hook 'window-configuration-change-hook 
 	  '(lambda ()
