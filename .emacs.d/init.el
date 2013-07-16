@@ -17,6 +17,7 @@
 		       "mark-multiple"
 		       "newline"
 		       "rspec"
+		       "rainbow"
 		       "ruby"
 		       "ruby-block"
 		       "rvm"
