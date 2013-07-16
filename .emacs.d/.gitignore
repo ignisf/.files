@@ -2,4 +2,3 @@ auto-save-list/*
 backups/*
 elpa/*-readme.txt*
 *.elc
-*~
