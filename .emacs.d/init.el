@@ -15,3 +15,4 @@
 (load "init-rvm.el")
 (load "init-sass.el")
 (load "init-coffee.el")
+(load "init-erc.el")
