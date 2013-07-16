@@ -7,3 +7,7 @@
 
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
+
+(show-paren-mode t)
+(blink-cursor-mode 0)
+(set-cursor-color "deeppink")
