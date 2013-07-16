@@ -16,5 +16,6 @@
 		       "sass"
 		       "coffee"
 		       "erc"
-		       "mark-multiple"))
+		       "mark-multiple"
+		       "diff-hl"))
   (load (format "%s%s%s" "init-" element ".el")))
