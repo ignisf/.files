@@ -5,22 +5,34 @@
 (deftheme mediterranean
   "Mediterranean theme.")
 
+;; (let ((*base_color*		"#FBFBFB")
+;;       (*bg_color*		"#E9E9E9")
+;;       (*bg_color_dark*		"#3c3b37")
+;;       (*fg_color*		"#363636")
+;;       (*fg_color_dark*		"#dddddd")
+;;       (*link_color*		"#4a90d9")
+;;       (*selected_bg_color*	"#4a75b8")
+;;       (*selected_fg_color*	"#ffffff")
+;;       (*text_color*		"#282828")
+;;       (*tooltip_bg_color*	"#343434")
+;;       (*tooltip_fg_color*	"#ffffff")))
+
 (let ((class '((class color) (min-colors 89))))
   (custom-theme-set-faces
    'mediterranean
-   `(cursor ((,class (:background "#A52A2A"))))
+   `(cursor ((,class (:background "#4a75b8"))))
    `(border-color ((,class (:background "#EDEDED"))))
-   `(default ((,class (:background "#E6E6E6" :foreground "#2E3436"))))
-   `(fringe ((,class (:background "#E6E6E6"))))
+   `(default ((,class (:background "#E9E9E9" :foreground "#363636"))))
+   `(fringe ((,class (:background "#E9E9E9"))))
    `(mode-line ((,class (:box (:line-width -1 :color "#C6C6C6" :style nil)
-			      :background "#E6E6E6" :foreground "#2E3436"))))
-   `(mode-line-inactive ((,class (:background "#E6E6E6" :foreground "#C6C6C6"))))
-   `(header-line ((,class (:foreground "black" :background "#E6E6E6"))))
+			      :background "#E9E9E9" :foreground "#363636"))))
+   `(mode-line-inactive ((,class (:background "#E9E9E9" :foreground "#C6C6C6"))))
+   `(header-line ((,class (:foreground "black" :background "#E9E9E9"))))
 
-   `(minibuffer-prompt ((,class (:foreground "#0084C8" :bold t))))
+   `(minibuffer-prompt ((,class (:foreground "#282828" :bold t))))
    `(region ((,class (:foreground unspecified :background "#C2D5E9"))))
-   `(dired-header ((,class (:bold t :foreground "#0084C8"))))
-   `(widget-button ((,class (:bold t :foreground "#0084C8"))))
+   `(dired-header ((,class (:bold t :foreground "#282828"))))
+   `(widget-button ((,class (:bold t :foreground "#282828"))))
 
    `(success ((,class (:bold t :foreground "#4E9A06"))))
    `(warning ((,class (:foreground "#CE5C00"))))
@@ -33,10 +45,10 @@
    `(font-lock-keyword-face ((,class (:bold t :foreground "#A52A2A"))))
    `(font-lock-string-face ((,class (:foreground "#4E9A06"))))
    `(font-lock-type-face ((,class (:foreground "#2F8B58" :bold t))))
-   `(font-lock-variable-name-face ((,class (:foreground "#0084C8" :bold t))))
+   `(font-lock-variable-name-face ((,class (:foreground "#4a90d9" :bold t))))
    `(font-lock-warning-face ((,class (:foreground "#F5666D" :bold t))))
 
-   `(link ((,class (:underline t :foreground "#0066CC"))))
+   `(link ((,class (:underline t :foreground "#4a90d9"))))
    `(link-visited ((,class (:underline t :foreground "#6799CC"))))
    `(highlight ((,class (:foreground "white" :background "#4A90D9"))))
    `(isearch ((,class (:foreground "white" :background "#77A4DD"))))
@@ -76,10 +88,11 @@
    `(gnus-cite-2 ((,class (:foreground "#0084C8"))))
 
    `(diff-added ((,class (:bold t :foreground "#4E9A06"))))
-   `(diff-removed ((,class (:bold t :foreground "#F5666D"))))))
+   `(diff-removed ((,class (:bold t :foreground "#F5666D"))))
 
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
+   ;; Local Variables:
+   ;; no-byte-compile: t
+   ;; End:
 
 ;;; mediterranean-theme.el ends here
+   ))
