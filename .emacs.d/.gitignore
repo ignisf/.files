@@ -2,3 +2,8 @@ auto-save-list/*
 backups/*
 elpa/*-readme.txt*
 *.elc
+image-dired/*
+elpa/archives/*
+eshell/history
+url/cookies
+session.*
