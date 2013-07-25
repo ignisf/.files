@@ -1,6 +1,8 @@
 ;;; magit-key-mode.el --- interactively tune git invocation
 
-;; Copyright (C) 2010  Phil Jackson
+;; Copyright (C) 2010-2011  Phil Jackson
+
+;; Author: Phil Jackson <phil@shellarchive.co.uk>
 
 ;; Magit is free software; you can redistribute it and/or modify it
 ;; under the terms of the GNU General Public License as published by
@@ -360,6 +362,10 @@ These will eventually make it to the git command-line.")
 (defvar magit-key-mode-current-options nil
   "Current option set.
 These will eventually make it to the git command-line.")
+
+(defvar magit-custom-options nil
+  "List of custom options to pass to Git.
+Do not customize this (used in the `magit-key-mode' implementation).")
 
 (defun magit-key-mode-command (func)
   (let ((current-prefix-arg (or current-prefix-arg magit-key-mode-prefix))

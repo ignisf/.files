@@ -4,7 +4,7 @@
 
 ;; Author: Phil Hagelberg, Eric Schulte
 ;; URL: https://github.com/eschulte/rinari
-;; Version: 20130616.957
+;; Version: 20130721.1241
 ;; X-Original-Version: DEV
 ;; Created: 2006-11-10
 ;; Keywords: ruby, rails, project, convenience, web
@@ -218,7 +218,9 @@ Use `font-lock-add-keywords' in case of `ruby-mode' or
      (list (list
             (concat "\\(^\\|[^_:.@$]\\|\\.\\.\\)\\b"
                     (regexp-opt keywords t)
-                    ruby-keyword-end-re)
+                    (eval-when-compile (if (string-match "\\_>" "ruby")
+                                           "\\_>"
+                                         "\\>")))
             (list 2 'font-lock-builtin-face))))))
 
 (defun rinari-apply-keywords-for-file-type ()

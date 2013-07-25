@@ -2,6 +2,8 @@
 
 ;; Copyright (C) 2011  Moritz Bunkus
 
+;; Author: Moritz Bunkus <moritz@bunkus.org>
+
 ;; Magit is free software; you can redistribute it and/or modify it
 ;; under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation; either version 3, or (at your option)
@@ -25,8 +27,7 @@
 
 (defvar magit--bisect-last-pos)
 (defvar magit--bisect-tmp-file)
-(defvar magit--bisect-info nil)
-(make-variable-buffer-local 'magit--bisect-info)
+(defvar-local magit--bisect-info nil)
 (put 'magit--bisect-info 'permanent-local t)
 
 (defun magit--bisecting-p (&optional required-status)
@@ -164,8 +165,8 @@ match REQUIRED-STATUS."
     (magit-display-process)
     (setq buffer (get-buffer magit-process-buffer-name))
     (with-current-buffer buffer
-      (set (make-local-variable 'magit--bisect-last-pos) 0)
-      (set (make-local-variable 'magit--bisect-tmp-file) file))
+      (setq-local magit--bisect-last-pos 0)
+      (setq-local magit--bisect-tmp-file file))
     (set-process-filter (get-buffer-process buffer) 'magit--bisect-run-filter)
     (set-process-sentinel (get-buffer-process buffer) 'magit--bisect-run-sentinel)))
 
