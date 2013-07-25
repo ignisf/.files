@@ -1,5 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/elisp")
- 
+
 (dolist (element (list "packages"
 		       "appearance"
 		       "auctex"
@@ -27,7 +27,6 @@
 		       "style"
 		       "twit"
 		       "windows"
-		       "wl"
 		       "yaml"
 		       "yasnippet"))
   (load (format "%s%s%s" "init-" element ".el")))
