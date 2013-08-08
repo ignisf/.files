@@ -36,6 +36,9 @@
 ;; Join the a couple of interesting channels
 (setq erc-autojoin-channels-alist '(("ludost.net" "#marla")))
 
+;; Raise the security
+(setq gnutls-min-prime-bits 1024)
+
 (defun ludost ()
   "Connect to IRC."
   (interactive)
