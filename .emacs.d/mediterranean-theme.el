@@ -48,6 +48,23 @@
    `(font-lock-variable-name-face ((,class (:foreground "#4a90d9" :bold t))))
    `(font-lock-warning-face ((,class (:foreground "#F5666D" :bold t))))
 
+   `(web-mode-builtin-face ((,class (:foreground "#A020F0"))))
+   `(web-mode-constant-face  ((,class (:foreground "#F5666D"))))
+   `(web-mode-comment-face ((,class (:foreground "#204A87"))))
+   `(web-mode-function-name-face ((,class (:foreground "#00578E" :bold t))))
+   `(web-mode-keyword-face ((,class (:bold t :foreground "#A52A2A"))))
+   `(web-mode-string-face ((,class (:foreground "#4E9A06"))))
+   `(web-mode-type-face ((,class (:foreground "#2F8B58" :bold t))))
+   `(web-mode-variable-name-face ((,class (:foreground "#4a90d9" :bold t))))
+
+   ;; `(web-mode-preprocessor-face)
+   `(web-mode-symbol-face ((,class (:foreground "#F5666D"))))
+
+   ;; `(web-mode-doctype-face)
+   `(web-mode-html-tag-face ((,class (:foreground "#00578E" :bold t))))
+   `(web-mode-html-attr-name-face ((,class (:foreground "#4a90d9"))))
+   `(web-mode-html-attr-value-face ((,class (:foreground "#4E9A06"))))
+
    `(link ((,class (:underline t :foreground "#4a90d9"))))
    `(link-visited ((,class (:underline t :foreground "#6799CC"))))
    `(highlight ((,class (:foreground "white" :background "#4A90D9"))))

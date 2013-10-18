@@ -5,3 +5,10 @@
 (add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
+
+(global-rinari-mode)
+
+(add-hook 'ruby-mode-hook 'robe-mode)
+;; (add-hook 'ruby-mode-hook 'yard-mode)
+
+(setq ac-sources '(ac-source-words-in-buffer ac-source-words-in-same-mode-buffers ac-source-robe))
