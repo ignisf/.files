@@ -29,8 +29,7 @@
 		       "style"
 		       "twit"
 		       "windows"
-		       "yaml"
-		       "yasnippet"))
+		       "yaml"))
   (load (format "%s%s%s" "init-" element ".el")))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

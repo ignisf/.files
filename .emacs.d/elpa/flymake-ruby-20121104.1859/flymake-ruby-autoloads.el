@@ -3,9 +3,9 @@
 ;;; Code:
 
 
-;;;### (autoloads (flymake-ruby-load) "flymake-ruby" "flymake-ruby.el"
-;;;;;;  (20964 35783 346976 648000))
-;;; Generated autoloads from flymake-ruby.el
+;;;### (autoloads (flymake-ruby-load) "flymake-ruby" "../../../../.emacs.d/elpa/flymake-ruby-20121104.1859/flymake-ruby.el"
+;;;;;;  "a00e8601bb302a5ea27faa98493c2800")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/flymake-ruby-20121104.1859/flymake-ruby.el
 
 (autoload 'flymake-ruby-load "flymake-ruby" "\
 Configure flymake mode to check the current buffer's ruby syntax.
@@ -14,8 +14,9 @@ Configure flymake mode to check the current buffer's ruby syntax.
 
 ;;;***
 
-;;;### (autoloads nil nil ("flymake-ruby-pkg.el") (20964 35783 540655
-;;;;;;  610000))
+;;;### (autoloads nil nil ("../../../../.emacs.d/elpa/flymake-ruby-20121104.1859/flymake-ruby-pkg.el"
+;;;;;;  "../../../../.emacs.d/elpa/flymake-ruby-20121104.1859/flymake-ruby.el")
+;;;;;;  (21110 13025 553198 391000))
 
 ;;;***
 
