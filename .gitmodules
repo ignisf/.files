@@ -1,6 +1,3 @@
-[submodule ".emacs.d/snippets/ruby-mode"]
-	path = .emacs.d/snippets/ruby-mode
-	url = https://github.com/bmaland/yasnippet-ruby-mode.git
 [submodule ".emacs.d/vendor/nxhtml"]
 	path = .emacs.d/vendor/nxhtml
 	url = git://github.com/emacsmirror/nxhtml.git
