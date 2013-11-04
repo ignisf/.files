@@ -6,6 +6,5 @@
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (add-hook 'ruby-mode-hook 'whitespace-mode)
-(add-hook 'web-mode-hook 'whitespace-mode)
 (add-hook 'nxml-mode-hook 'whitespace-mode)
 (add-hook 'rinari-mode-hook 'whitespace-mode)

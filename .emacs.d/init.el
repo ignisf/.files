@@ -25,11 +25,13 @@
 		       "ruby-block"
 		       "rvm"
 		       "sass"
+                       "smex"
 		       "smooth-scroll"
 		       "style"
 		       "twit"
 		       "windows"
-		       "yaml"))
+		       "yaml"
+                       "yasnippet"))
   (load (format "%s%s%s" "init-" element ".el")))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
