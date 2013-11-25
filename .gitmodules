@@ -1,3 +1,6 @@
 [submodule ".emacs.d/vendor/nxhtml"]
 	path = .emacs.d/vendor/nxhtml
 	url = git://github.com/emacsmirror/nxhtml.git
+[submodule ".emacs.d/vendor/yasnippet"]
+	path = .emacs.d/vendor/yasnippet
+	url = git@github.com:capitaomorte/yasnippet.git
