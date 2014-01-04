@@ -22,7 +22,7 @@
 (setq erc-header-line-format nil)
 
 ;; Auto update the fill width on window resize
-(add-hook 'window-configuration-change-hook 
+(add-hook 'window-configuration-change-hook
 	  '(lambda ()
 	     (setq erc-fill-column (- (window-width) 2))))
 
