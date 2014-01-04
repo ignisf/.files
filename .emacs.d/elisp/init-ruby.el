@@ -10,6 +10,7 @@
 
 (add-hook 'ruby-mode-hook 'robe-mode)
 ;; (add-hook 'ruby-mode-hook 'yard-mode)
+(add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
 (require 'auto-complete-config)
 (ac-config-default)
