@@ -8,6 +8,7 @@
 		       "delete"
 		       "diff-hl"
 		       "ecb"
+                       "enotify"
 		       "erc"
 		       "eshell"
 		       "expand-region"
