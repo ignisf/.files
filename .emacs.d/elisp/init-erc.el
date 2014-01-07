@@ -42,5 +42,7 @@
 (defun ludost ()
   "Connect to IRC."
   (interactive)
-  (erc-tls :server "irc.ludost.net" :port 6697
+  (erc-tls :server "irc.ludost.net"
+           :port 6697
+           :full-name "Petko Bordjukov"
 	   :nick "игнис"))
