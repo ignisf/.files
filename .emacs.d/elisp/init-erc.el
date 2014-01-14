@@ -13,18 +13,18 @@
 (setq erc-query-display 'buffer)
 
 ;; Use the static function to fill
-(setq erc-fill-function 'erc-fill-static)
+;(setq erc-fill-function 'erc-fill-static)
 
 ;; Insert timestamps only on the left side
-(setq erc-insert-timestamp-function 'erc-insert-timestamp-left)
+(setq erc-hide-timestamps t)
 
 ;; Get rid of the header line
 (setq erc-header-line-format nil)
 
 ;; Auto update the fill width on window resize
-(add-hook 'window-configuration-change-hook
-	  '(lambda ()
-	     (setq erc-fill-column (- (window-width) 2))))
+;; (add-hook 'window-configuration-change-hook
+;; 	  '(lambda ()
+;; 	     (setq erc-fill-column (- (window-width) 2))))
 
 ;; exclude boring stuff from tracking
 (erc-track-mode t)
@@ -46,3 +46,6 @@
            :port 6697
            :full-name "Petko Bordjukov"
 	   :nick "игнис"))
+
+(add-to-list 'erc-modules 'image)
+(erc-update-modules)

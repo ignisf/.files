@@ -15,4 +15,5 @@
 (require 'auto-complete-config)
 (ac-config-default)
 (add-hook 'ruby-mode-hook 'auto-complete-mode)
+(add-hook 'ruby-mode-hook 'autopair-mode)
 (setq ac-sources '(ac-source-words-in-buffer ac-source-words-in-same-mode-buffers ac-source-robe))
