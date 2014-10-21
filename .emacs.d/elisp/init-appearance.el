@@ -5,6 +5,9 @@
 (if (fboundp 'load-theme) (load-theme 'ceti t))
 (if (fboundp 'set-default-font) (set-default-font "Monospace-10"))
 
+;; Truncate everything
+(set-default 'truncate-lines t)
+(setq truncate-partial-width-windows t)
 
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
