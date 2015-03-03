@@ -55,16 +55,16 @@
        (far-background "#1c1f26") ;; panel-control
        (subtle "#a7adba") ;; tree-row-hover-disclosure-button-control
        (selection "#859900") ;; tab-control-dirty-tab-close-button
-       (secondary-selection "#D33682") ;; tab-control-hover-tab-close-button
+       (secondary-selection "#d33682") ;; tab-control-hover-tab-close-button
        (foreground "#f3f3f3")
        (comment "#677787") ;; table-row
-       (red "#DC322F") ;; tab-control-hover-tab-close-button
-       (orange "#CB4B16") ;; darker tab-control-dirty-tab-close-butto
-       (yellow "#B58900") ;; tab-control-dirty-tab-close-button
+       (red "#dc322f") ;; tab-control-hover-tab-close-button
+       (orange "#cb4b16") ;; darker tab-control-dirty-tab-close-butto
+       (yellow "#b58900") ;; tab-control-dirty-tab-close-button
        (green "#859900") ;; complement tab-control-dirty-tab-close-button
-       (aqua "#2AA198") ;; lighter complement tab-control-dirty-tab-close-button
-       (blue "#268BD2") ;; complement tab-control-dirty-tab-close-button
-       (purple "#D33682")) ;; complement tab-control-dirty-tab-close-button
+       (aqua "#2aa198") ;; lighter complement tab-control-dirty-tab-close-button
+       (blue "#268bd2") ;; complement tab-control-dirty-tab-close-button
+       (purple "#d33682")) ;; complement tab-control-dirty-tab-close-button
 
   (custom-theme-set-faces
    'ceti
@@ -201,7 +201,7 @@
    `(whitespace-hspace ((,class (:background nil :foreground ,selection))))
 
    ;; Parenthesis matching (built-in)
-   `(show-paren-match-face ((,class (:background "dodgerblue1" :foreground "white"))))
+   `(show-paren-match-face ((,class (:background ,selection :foreground "white"))))
    `(show-paren-mismatch-face ((,class (:background "red1" :foreground "white"))))
 
    ;; Smartparens paren matching
@@ -597,7 +597,8 @@
    `(term-color-blue    ((,class (:foreground ,blue :background ,blue))))
    `(term-color-magenta ((,class (:foreground ,purple :background ,purple))))
    `(term-color-cyan    ((,class (:foreground ,aqua :background ,aqua))))
-   `(term-color-white   ((,class (:foreground ,background :background ,background)))))
+   `(term-color-white   ((,class (:foreground ,background :background ,background))))
+   `(ruby-block-highlight-face nil))
 
   (custom-theme-set-variables
    'ceti
