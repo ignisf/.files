@@ -2,8 +2,7 @@
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
-(if (fboundp 'load-theme) (load-theme 'ceti t))
-(if (fboundp 'set-default-font) (set-default-font "Monospace-10"))
+(if (fboundp 'set-default-font) (set-default-font "Monospace-13"))
 
 ;; Truncate everything
 (set-default 'truncate-lines t)
@@ -14,3 +13,6 @@
 
 (show-paren-mode t)
 (blink-cursor-mode 0)
+
+;; (load-theme 'ceti t)
+(load-theme 'gnome t)
