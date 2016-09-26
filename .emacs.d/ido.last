@@ -1,0 +1,664 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ignisf/Projects/fauna/app/views/api/door/" . "statuses/")
+ ("/var/run/media/ignisf/Files/Projects/platform/" . "spectralanalyzer/")
+ ("/home/ignisf/Projects/fauna/spec/api/" . "door/")
+ ("/home/ignisf/Projects/fauna/app/controllers/api/" . "door/")
+ ("/home/ignisf/Projects/fauna/app/views/api/" . "door/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/generic/files/arch/mips/fw/" . "myloader/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/generic/files/arch/mips/" . "fw/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/generic/files/arch/" . "mips/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/generic/files/" . "arch/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/generic/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/files/arch/mips/include/asm/" . "mach-ath79/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/files/arch/mips/include/" . "asm/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/files/arch/mips/" . "ath79/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/files/arch/" . "mips/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/files/" . "arch/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/" . "ar71xx/")
+ ("/var/run/media/ignisf/Files/Projects/staging/target/" . "linux/")
+ ("/var/run/media/ignisf/Files/Projects/staging/" . "target/")
+ ("/home/ignisf/Projects/mpv/video/" . "out/")
+ ("/home/ignisf/Projects/mpv/" . "video/")
+ ("/home/ignisf/.mozilla/firefox/" . "0mfeooxv.nightly/")
+ ("/home/ignisf/.mozilla/" . "firefox/")
+ ("/home/ignisf/Projects/fauna/app/views/doorkeeper/" . "applications/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/kernel/mac80211/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/kernel/" . "mwlwifi/")
+ ("/home/ignisf/Projects/fauna/app/views/lights/" . "statuses/")
+ ("/home/ignisf/Projects/fauna/spec/models/lights/" . "policy_manager/")
+ ("/home/ignisf/Projects/fauna/app/models/lights/" . "policy_manager/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/" . "hostapd/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/" . "services/")
+ ("/var/run/media/ignisf/Files/Projects/lede/package/" . "network/")
+ ("/var/run/media/ignisf/Files/Projects/lede/" . "package/")
+ ("/home/ignisf/Projects/mail-gpg/lib/mail/" . "gpg/")
+ ("/home/ignisf/Projects/mail-gpg/lib/" . "mail/")
+ ("/home/ignisf/Projects/mail-gpg/" . "lib/")
+ ("/home/ignisf/Projects/fauna/app/decorators/" . "fauna/")
+ ("/home/ignisf/Projects/devise-i18n/rails/" . "locales/")
+ ("/home/ignisf/Projects/fauna/app/assets/fonts/" . "akrobat/")
+ ("/home/ignisf/Projects/sofaskin/css/" . "scss/")
+ ("/home/ignisf/Projects/sofaskin/" . "RSS/")
+ ("/home/ignisf/.config/systemd/" . "user/")
+ ("/home/ignisf/.config/" . "systemd/")
+ ("/home/ignisf/Projects/mini_racer/benchmark/" . "babel/")
+ ("/home/ignisf/Projects/image_compressor_pack/release/" . "x86_64-freebsd10/")
+ ("/home/ignisf/Projects/image_compressor_pack/lib/" . "image_compressor_pack/")
+ ("/home/ignisf/Projects/image_compressor_pack/" . "release/")
+ ("/home/ignisf/Projects/ports/jpeg-archive-2.1.1/src/" . "test/")
+ ("/home/ignisf/Projects/ports/jpeg-archive-2.1.1/" . "src/")
+ ("/home/ignisf/Projects/mini_racer/ext/" . "mini_racer_extension/")
+ ("/home/ignisf/Projects/mini_racer/" . "ext/")
+ ("/home/ignisf/Projects/crunch/release/" . "x86_64-freebsd10/")
+ ("/home/ignisf/Projects/ports/" . "jpeg-archive-2.1.1/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-linux-gnu/ports/advancecomp/1.2/" . "advancecomp-1.20/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-linux-gnu/ports/advancecomp/" . "1.2/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-linux-gnu/ports/" . "advancecomp/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-linux-gnu/" . "ports/")
+ ("/home/ignisf/tmp/shit/crunch/ports/patches/" . "pngquant/")
+ ("/home/ignisf/tmp/shit/crunch/ports/" . "patches/")
+ ("/home/ignisf/tmp/shit/crunch/lib/" . "crunch/")
+ ("/home/ignisf/tmp/shit/crunch/" . "ports/")
+ ("/home/ignisf/tmp/shit/" . "crunch/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-pc-linux-gnu/ports/pngquant/2.7.0/" . "pngquant-2.7.0/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-pc-linux-gnu/ports/pngquant/" . "2.7.0/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-pc-linux-gnu/ports/" . "pngquant/")
+ ("/home/ignisf/Projects/crunch/tmp/x86_64-pc-linux-gnu/" . "ports/")
+ ("/home/ignisf/Projects/crunch/tmp/" . "x86_64-linux-gnu/")
+ ("/home/ignisf/Projects/libv8/vendor/depot_tools/" . "fetch_configs/")
+ ("/home/ignisf/Projects/v8/tools/" . "gyp/")
+ ("/home/ignisf/Projects/v8/" . "build/")
+ ("/home/ignisf/Projects/usda-nutrient-database/db/" . "migrate/")
+ ("/home/ignisf/Projects/usda-nutrient-database/" . "spec/")
+ ("/home/ignisf/Projects/libv8-fork/lib/" . "libv8/")
+ ("/home/ignisf/Projects/libv8-fork/" . "lib/")
+ ("/tmp/word/" . "_rels/")
+ ("/home/ignisf/Projects/jseval/ext/" . "jseval/")
+ ("/home/ignisf/Projects/jseval/" . "ext/")
+ ("/home/ignisf/.elmo/" . "cache/")
+ ("/home/ignisf/Projects/fauna/db/" . "migrate/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/site/" . "publications/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/shop/" . "delivery_hubs/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/devise/" . "mailer/")
+ ("/sftp:root@edge.btroyan.info:srv/http/" . "monitoring/")
+ ("/sftp:root@edge.btroyan.info:srv/" . "http/")
+ ("/sftp:root@edge.btroyan.info:var/" . "lib/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/public/" . "home/")
+ ("/home/ignisf/Projects/gj-rs/" . "src/")
+ ("/home/ignisf/Projects/hugo-theme-blueberry-detox/static/" . "css/")
+ ("/home/ignisf/Projects/hugo-theme-blueberry-detox/layouts/" . "partials/")
+ ("/home/ignisf/Projects/hugo-theme-blueberry-detox/" . "layouts/")
+ ("/home/ignisf/Projects/karlabot/" . "src/")
+ ("/home/ignisf/Projects/rustest/" . "src/")
+ ("/home/ignisf/Projects/crunch/ports/patches/" . "mozjpeg/")
+ ("/home/ignisf/Projects/crunch/ports/" . "patches/")
+ ("/home/ignisf/Projects/crunch/lib/" . "image_compressor_pack/")
+ ("/home/ignisf/Projects/image_optim_pack/ext/" . "image_optim_pack/")
+ ("/home/ignisf/Projects/image_optim/lib/" . "image_optim/")
+ ("/home/ignisf/Projects/image_optim_pack/lib/" . "image_optim/")
+ ("/home/ignisf/Projects/image_optim_pack/" . "lib/")
+ ("/home/ignisf/Projects/image_optim/" . "ext/")
+ ("/home/ignisf/Projects/crunch/ext/" . "image_compressor_pack/")
+ ("/home/ignisf/Projects/crunch/" . "lib/")
+ ("/home/ignisf/Projects/CoKitchen/app/helpers/" . "kitchen/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/stylesheets/components/" . "management/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/stylesheets/public_page/" . "widgets/")
+ ("/home/ignisf/Projects/openfest-network/monitoring/collectd/scripts/" . "wlstats-gather/")
+ ("/home/ignisf/Projects/openfest-network/monitoring/collectd/" . "scripts/")
+ ("/home/ignisf/Projects/openfest-network/monitoring/" . "collectd/")
+ ("/home/ignisf/Projects/openfest-network/" . "monitoring/")
+ ("/home/ignisf/Projects/openfest-wifi/files/archer-c5/etc/" . "config/")
+ ("/home/ignisf/Projects/openfest-wifi/files/archer-c5/" . "etc/")
+ ("/home/ignisf/Projects/openfest-wifi/files/all/etc/" . "config/")
+ ("/home/ignisf/Projects/openfest-wifi/files/all/" . "etc/")
+ ("/home/ignisf/Projects/openfest-wifi/files/" . "all/")
+ ("/home/ignisf/Projects/openfest-wifi/files-all/" . "etc/")
+ ("/home/ignisf/Projects/openfest-wifi/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openwrt-packages/net/" . "aircrack-ng/")
+ ("/var/run/media/ignisf/Files/Projects/openwrt-packages/sound/" . "upmpdcli/")
+ ("/var/run/media/ignisf/Files/Projects/openwrt-packages/" . "net/")
+ ("/home/ignisf/Projects/hostap/src/" . "ap/")
+ ("/home/ignisf/Projects/hostap/" . "src/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/network/services/igmpproxy/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/network/services/dnsmasq/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/system/uci/files/lib/" . "config/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/system/uci/files/" . "lib/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/system/uci/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/system/" . "uci/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/kernel/mac80211/files/lib/netifd/" . "wireless/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/kernel/mac80211/files/lib/" . "netifd/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/kernel/mac80211/files/" . "lib/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/kernel/mac80211/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/kernel/" . "mac80211/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/base-files/files/" . "etc/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/base-files/" . "files/")
+ ("/scp:root@eric.openfest.org:/home/openwrt-build/" . "openwrt/")
+ ("/scp:root@eric.openfest.org:/home/" . "openwrt-build/")
+ ("/scp:root@eric.openfest.org:/" . "home/")
+ ("/home/ignisf/Projects/initLab/" . "doc/")
+ ("/sftp:root@edge.btroyan.info:usr/local/etc/nginx/" . "sites-available/")
+ ("/sftp:root@edge.btroyan.info:usr/local/etc/" . "nginx/")
+ ("/sftp:root@edge.btroyan.info:usr/local/" . "etc/")
+ ("/sftp:root@edge.btroyan.info:usr/" . "local/")
+ ("/sftp:root@edge.btroyan.info:" . "srv/")
+ ("/sftp:root@edge.btroyan.info:/usr/local/etc/nginx/" . "sites-available/")
+ ("/sftp:root@edge.btroyan.info:/usr/local/etc/" . "nginx/")
+ ("/sftp:root@edge.btroyan.info:/usr/local/" . "etc/")
+ ("/home/ignisf/Projects/design/" . "js/")
+ ("/home/ignisf/Projects/gauge/config/" . "locales/")
+ ("/home/ignisf/Projects/gauge/app/assets/" . "javascripts/")
+ ("/home/ignisf/Projects/gauge/app/views/" . "home/")
+ ("/home/ignisf/Projects/gauge/app/" . "views/")
+ ("/home/ignisf/Projects/gauge/" . "app/")
+ ("/home/ignisf/Projects/halfnarp/backend/lib/" . "python2.7/")
+ ("/home/ignisf/Projects/halfnarp/backend/backrest/" . "tests/")
+ ("/home/ignisf/Projects/halfnarp/backend/" . "backrest/")
+ ("/home/ignisf/Projects/halfnarp/" . "backend/")
+ ("/home/ignisf/Projects/snom-provisioning/" . "config/")
+ ("/home/ignisf/Projects/openfest/" . "2015/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/layouts/" . "public/")
+ ("/home/ignisf/Projects/CoKitchen/lib/" . "tasks/")
+ ("/var/run/media/ignisf/Files/Projects/hostap/src/" . "ap/")
+ ("/var/run/media/ignisf/Files/Projects/hostap/" . "src/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/network/services/hostapd/" . "files/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/network/services/" . "hostapd/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/network/" . "services/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/package/" . "network/")
+ ("/var/run/media/ignisf/Files/Projects/openfestwrt/" . "package/")
+ ("/var/run/media/ignisf/Files/Projects/" . "lede/")
+ ("/var/run/media/ignisf/Files/" . "Projects/")
+ ("/var/run/media/ignisf/" . "Files/")
+ ("/var/run/media/" . "ignisf/")
+ ("/home/ignisf/Projects/info-beamer-nodes/" . "30c3-room/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/views/public/" . "volunteers/")
+ ("/home/ignisf/Projects/clarion/app/views/devise1/" . "mailer/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/assets/stylesheets/" . "initfest/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/config/" . "locales/")
+ ("/home/ignisf/Projects/clarion/lib/assets/stylesheets/" . "initfest/")
+ ("/home/ignisf/Projects/clarion/lib/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/clarion/vendor/" . "assets/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/views/layouts/" . "public/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/views/devise/" . "registrations/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/views/" . "public/")
+ ("/home/ignisf/Projects/clarion/lib/initfest/" . "views/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/views/layouts/" . "open_fest/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/helpers/" . "open_fest/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/views/open_fest/users/" . "registrations/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/assets/stylesheets/" . "open_fest/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/controllers/" . "open_fest/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/views/open_fest/" . "shared/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/views/" . "layouts/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/app/" . "views/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest/" . "config/")
+ ("/tmp/dcpj4110dw_cupswrapper_GPL_source_3.0.1-1/" . "brcupsconfig/")
+ ("/home/ignisf/Projects/brother-dcpj4110dw/src/dcpj4110dw_cupswrapper_GPL_source_3.0.1-1/" . "brcupsconfig/")
+ ("/home/ignisf/Projects/brother-dcpj4110dw/src/" . "dcpj4110dw_cupswrapper_GPL_source_3.0.1-1/")
+ ("/home/ignisf/Projects/brother-dcpj4110dw/" . "src/")
+ ("/tmp/" . "word/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/fonts/" . "charis/")
+ ("/home/ignisf/tmp/static/" . "css/")
+ ("/home/ignisf/Projects/CoKitchen/db/" . "migrate/")
+ ("/home/ignisf/Projects/CoKitchen/config/deploy/" . "templates/")
+ ("/home/ignisf/tmp/theme/sass/bootstrap/" . "bootstrap/")
+ ("/home/ignisf/tmp/theme/sass/site/" . "primary/")
+ ("/home/ignisf/tmp/theme/sass/" . "navigation/")
+ ("/home/ignisf/Projects/fauna/app/models/concerns/" . "door/")
+ ("/home/ignisf/Projects/fauna/spec/models/door/" . "actions/")
+ ("/home/ignisf/Projects/fauna/app/models/door/" . "actions/")
+ ("/home/ignisf/Projects/fauna/app/views/door/" . "statuses/")
+ ("/home/ignisf/tmp/theme/" . "sass/")
+ ("/home/ignisf/tmp/" . "shit/")
+ ("/home/ignisf/Projects/oldclarion/spec/" . "support/")
+ ("/home/ignisf/Projects/oldclarion/app/views/" . "layouts/")
+ ("/home/ignisf/Projects/oldclarion/app/" . "controllers/")
+ ("/home/ignisf/Projects/oldclarion/" . "spec/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest_2014/app/controllers/" . "open_fest_2014/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest_2014/app/" . "controllers/")
+ ("/home/ignisf/Projects/clarion/lib/open_fest_2014/" . "app/")
+ ("/home/ignisf/Projects/clarion/lib/c_f_p/app/controllers/cfp/" . "c_f_p/")
+ ("/home/ignisf/Projects/clarion/lib/c_f_p/app/controllers/" . "c_f_p/")
+ ("/home/ignisf/Projects/clarion/lib/c_f_p/lib/" . "c_f_p/")
+ ("/home/ignisf/Projects/clarion/lib/c_f_p/app/" . "controllers/")
+ ("/home/ignisf/Projects/clarion/lib/c_f_p/" . "config/")
+ ("/home/ignisf/Projects/clarion/lib/" . "initfest/")
+ ("/home/ignisf/Projects/falsehopes/_assets/fonts/" . "akrobat/")
+ ("/home/ignisf/Projects/fonts/tools/" . "encodings/")
+ ("/home/ignisf/Projects/fonts/" . "tools/")
+ ("/home/ignisf/Projects/falsehopes/_assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/falsehopes/_vendor/bootstrap/assets/stylesheets/" . "bootstrap/")
+ ("/home/ignisf/Projects/falsehopes/_vendor/bootstrap/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/falsehopes/_vendor/bootstrap/" . "assets/")
+ ("/home/ignisf/Projects/falsehopes/_vendor/" . "bootstrap/")
+ ("/home/ignisf/Projects/falsehopes/_site/jekyll/update/2015/" . "07/")
+ ("/home/ignisf/Projects/falsehopes/_site/jekyll/update/" . "2015/")
+ ("/home/ignisf/Projects/falsehopes/_site/jekyll/" . "update/")
+ ("/home/ignisf/Projects/falsehopes/_site/" . "jekyll/")
+ ("/home/ignisf/Projects/falsehopes/" . "_posts/")
+ ("/home/ignisf/Projects/therubyracer/ext/" . "v8/")
+ ("/home/ignisf/Projects/therubyracer/" . "ext/")
+ ("/home/ignisf/Projects/CoKitchenTheme/" . "inc/")
+ ("/home/ignisf/Projects/CoKitchen/vendor/assets/stylesheets/" . "awesomplete/")
+ ("/home/ignisf/Projects/CoKitchen/app/models/" . "concerns/")
+ ("/home/ignisf/Projects/openwrt/package/kernel/mac80211/files/" . "lib/")
+ ("/home/ignisf/Projects/openwrt/package/kernel/mac80211/" . "files/")
+ ("/home/ignisf/Projects/openwrt/package/kernel/" . "mac80211/")
+ ("/home/ignisf/Projects/openwrt/package/" . "kernel/")
+ ("/home/ignisf/Projects/openwrt/" . "package/")
+ ("/home/ignisf/Projects/CoKitchen/app/controllers/" . "site/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/javascripts/" . "public_page/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/warehouse/" . "purchases/")
+ ("/home/ignisf/Projects/CoKitchen/vendor/assets/javascripts/" . "awesomplete/")
+ ("/home/ignisf/Projects/CoKitchen/vendor/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/CoKitchen/vendor/" . "assets/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/kitchen/" . "recipes/")
+ ("/home/ignisf/Projects/libv8/release/" . "armhf-linux/")
+ ("/home/ignisf/Projects/libv8/spec/" . "support/")
+ ("/home/ignisf/Projects/libv8/ext/libv8/" . "compiler/")
+ ("/home/ignisf/Projects/CoKitchen/config/" . "locales/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/stylesheets/" . "components/")
+ ("/home/ignisf/.cache/.fr-5IWER4/prpsp-huffman/src/prpsp/huffman/" . "backend/")
+ ("/home/ignisf/Downloads/cc2/" . "CoKitchen_files/")
+ ("/home/ignisf/Downloads/" . "cc2/")
+ ("/home/ignisf/Projects/CoKitchen/app/views/" . "public/")
+ ("/home/ignisf/Projects/CoKitchen/app/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/CoKitchen/app/" . "views/")
+ ("/home/ignisf/Projects/CoKitchen/" . "app/")
+ ("/home/ignisf/Projects/clarion/spec/controllers/" . "management/")
+ ("/home/ignisf/Projects/it-tour/config/" . "deploy/")
+ ("/home/ignisf/Projects/it-tour/" . "db/")
+ ("/var/run/user/1000/gvfs/" . "sftp:host=edge.btroyan.info/")
+ ("/var/run/user/1000/" . "gvfs/")
+ ("/var/run/user/" . "1000/")
+ ("/var/run/" . "media/")
+ ("/var/" . "run/")
+ ("/home/ignisf/Projects/wifi/" . "20150509/")
+ ("/home/ignisf/Projects/spectre/" . "src/")
+ ("/home/ignisf/Projects/fauna/spec/support/" . "shared_examples/")
+ ("/home/ignisf/Projects/fauna/app/helpers/" . "fauna/")
+ ("/home/ignisf/Projects/fauna/spec/models/" . "door/")
+ ("/home/ignisf/Projects/posledno/config/" . "initializers/")
+ ("/home/ignisf/Projects/posledno/app/models/" . "notifications/")
+ ("/home/ignisf/Projects/posledno/db/" . "migrate/")
+ ("/home/ignisf/Projects/GnomeExtensionMaximusTwo/" . "maximus-two-wilfinitlike.gmail.com/")
+ ("/home/ignisf/Projects/Ceti-2-theme/common/gtk-3.0/" . "3.14/")
+ ("/home/ignisf/Projects/Ceti-2-theme/common/" . "metacity-1/")
+ ("/home/ignisf/Projects/Ceti-2-theme/" . "common/")
+ ("/home/ignisf/Projects/statistics-homework/" . "hw1/")
+ ("/home/ignisf/Projects/coding-homework/" . "hw1/")
+ ("/home/ignisf/Projects/clarion/app/controllers/" . "management/")
+ ("/home/ignisf/Projects/clarion/app/views/devise/" . "mailer/")
+ ("/home/ignisf/Projects/clarion/config/" . "locales/")
+ ("/home/ignisf/Projects/clarion/app/views/management/" . "conferences/")
+ ("/home/ignisf/Projects/clarion/app/views/layouts/" . "management/")
+ ("/home/ignisf/Projects/clarion/app/views/" . "management/")
+ ("/home/ignisf/rrdexport/edge/" . "ping/")
+ ("/home/ignisf/rrdexport/" . "edge/")
+ ("/home/ignisf/Projects/clarion/app/models/" . "concerns/")
+ ("/home/ignisf/Projects/clarion/spec/support/" . "shared_examples/")
+ ("/home/ignisf/Projects/clarion/db/" . "migrate/")
+ ("/home/ignisf/Projects/clarion-erd/app/models/" . "concerns/")
+ ("/home/ignisf/Projects/clarion-erd/app/" . "models/")
+ ("/home/ignisf/Projects/clarion-erd/db/" . "migrate/")
+ ("/home/ignisf/Projects/clarion-erd/" . "app/")
+ ("/home/ignisf/Projects/clarion/spec/" . "models/")
+ ("/home/ignisf/Projects/clarion/app/assets/stylesheets/" . "management/")
+ ("/home/ignisf/Projects/clarion/app/assets/javascripts/" . "management/")
+ ("/home/ignisf/Projects/clarion/app/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/clarion/app/" . "controllers/")
+ ("/home/ignisf/Projects/clarion/" . "config/")
+ ("/home/ignisf/Projects/quoter/app/views/reminders/" . "reminders/")
+ ("/home/ignisf/Projects/quoter/app/views/status_tracking/" . "statuses/")
+ ("/home/ignisf/Projects/fauna/spec/controllers/" . "door/")
+ ("/home/ignisf/Projects/quoter/app/assets/javascripts/" . "reminders/")
+ ("/home/ignisf/Projects/libv8/patches/" . "clang51/")
+ ("/home/ignisf/Projects/libv8/ext/" . "libv8/")
+ ("/home/ignisf/Projects/libv8/lib/" . "libv8/")
+ ("/home/ignisf/Projects/libv8/vendor/v8/" . "gypfiles/")
+ ("/home/ignisf/Projects/libv8/vendor/" . "v8/")
+ ("/home/ignisf/Projects/libv8/" . "lib/")
+ ("/home/ignisf/Projects/fauna/app/models/" . "door/")
+ ("/home/ignisf/Projects/cokitchen/" . "css/")
+ ("/home/ignisf/Projects/devise-i18n/config/" . "locales/")
+ ("/home/ignisf/Projects/devise-i18n/" . "rails/")
+ ("/home/" . "ignisf/")
+ ("/" . "var/")
+ ("/home/ignisf/.files/.emacs.d/" . "elisp/")
+ ("/home/ignisf/.files/" . ".emacs.d/")
+ ("/home/ignisf/Projects/fauna/app/assets/javascripts/" . "fauna/")
+ ("/home/ignisf/Projects/fauna/spec/" . "controllers/")
+ ("/home/ignisf/Projects/fauna/app/views/fauna/" . "role_assignments/")
+ ("/home/ignisf/Projects/fauna/app/controllers/" . "api/")
+ ("/home/ignisf/Projects/fauna/app/views/devise/" . "registrations/")
+ ("/home/ignisf/Projects/posledno/app/views/layouts/" . "management/")
+ ("/home/ignisf/Projects/posledno/app/views/" . "layouts/")
+ ("/home/ignisf/Projects/posledno/app/" . "models/")
+ ("/home/ignisf/Projects/posledno/" . "app/")
+ ("/home/ignisf/Projects/fauna/app/assets/stylesheets/" . "components/")
+ ("/home/ignisf/Projects/fauna/config/" . "environments/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftps/src/org/ignisf/zftp/" . "server/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftps/src/org/ignisf/" . "zftp/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftps/src/org/" . "ignisf/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftps/src/" . "org/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftps/" . "src/")
+ ("/home/ignisf/IdeaProjects/zftp/lib0ftp/src/org/ignisf/zftp/" . "responses/")
+ ("/home/ignisf/IdeaProjects/zftp/lib0ftp/src/org/ignisf/" . "zftp/")
+ ("/home/ignisf/IdeaProjects/zftp/lib0ftp/src/org/" . "ignisf/")
+ ("/home/ignisf/IdeaProjects/zftp/lib0ftp/src/" . "org/")
+ ("/home/ignisf/IdeaProjects/zftp/lib0ftp/" . "src/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftp/src/org/ignisf/zftp/" . "client/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftp/src/org/ignisf/" . "zftp/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftp/src/org/" . "ignisf/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftp/src/" . "org/")
+ ("/home/ignisf/IdeaProjects/zftp/0ftp/" . "src/")
+ ("/home/ignisf/IdeaProjects/zftp/" . "0ftp/")
+ ("/home/ignisf/IdeaProjects/" . "zftp/")
+ ("/tmp/0ftp/src/org/" . "ignisf/")
+ ("/tmp/0ftp/src/" . "org/")
+ ("/tmp/0ftp/" . "src/")
+ ("/home/ignisf/Projects/crda-git/" . ".git/")
+ ("/home/ignisf/Projects/quoter/db/" . "migrate/")
+ ("/home/ignisf/Projects/quoter/app/assets/stylesheets/" . "reminders/")
+ ("/home/ignisf/Projects/quoter/app/assets/" . "javascripts/")
+ ("/home/ignisf/Projects/openfest-site/" . "_sass/")
+ ("/home/ignisf/Projects/fauna/lib/" . "tasks/")
+ ("/home/ignisf/.emacs.d/" . "elisp/")
+ ("/home/ignisf/Projects/fauna/app/assets/" . "javascripts/")
+ ("/home/ignisf/Projects/fauna/vendor/assets/" . "stylesheets/")
+ ("/home/ignisf/Projects/fauna/vendor/" . "assets/")
+ ("/home/ignisf/Projects/fauna/app/views/" . "api/")
+ ("/home/ignisf/Projects/fauna/app/" . "controllers/")
+ ("/home/ignisf/Projects/fauna/" . "spec/")
+ ("/home/ignisf/Projects/webquoter/app/views/" . "layouts/")
+ ("/home/ignisf/Projects/webquoter/app/" . "controllers/")
+ ("/home/ignisf/Projects/webquoter/" . "app/")
+ ("/home/ignisf/Projects/quoter/app/views/customer/" . "leads/")
+ ("/home/ignisf/Projects/quoter/app/views/" . "reminder_mailer/")
+ ("/home/ignisf/Projects/quoter/app/controllers/" . "customer/")
+ ("/home/ignisf/Projects/quoter/app/models/" . "reminders/")
+ ("/home/ignisf/Projects/" . "CoKitchen/")
+ ("/home/ignisf/" . "Projects/")
+ ("/home/ignisf/Projects/quoter/config/" . "initializers/")
+ ("/home/ignisf/Projects/quoter/app/" . "mailers/")
+ ("/home/ignisf/Projects/quoter/" . "config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ignisf/Projects/CoKitchen/app/views/public/home/"
+ "/home/ignisf/Projects/CoKitchen/app/views/public/showcase_events/"
+ "/home/ignisf/Projects/CoKitchen/app/views/layouts/"
+ "/home/ignisf/Projects/CoKitchen/app/views/site/publications/"
+ "/home/ignisf/Projects/CoKitchen/app/views/site/partners/"
+ "/home/ignisf/Projects/CoKitchen/app/models/"
+ "/home/ignisf/Projects/CoKitchen/app/models/concerns/"
+ "/home/ignisf/Projects/CoKitchen/app/controllers/site/"
+ "/home/ignisf/Projects/CoKitchen/config/locales/"
+ "/home/ignisf/Projects/CoKitchen/"
+ "/home/ignisf/.files/.emacs.d/"
+ "/home/ignisf/.files/.emacs.d/elisp/"
+ "/home/ignisf/Projects/mini_racer/"
+ "/home/ignisf/Projects/libv8/"
+ "/home/ignisf/Projects/fauna/spec/controllers/door/"
+ "/home/ignisf/Projects/fauna/app/controllers/api/door/"
+ "/home/ignisf/Projects/fauna/app/controllers/door/"
+ "/home/ignisf/Projects/fauna/"
+ "/home/ignisf/Projects/CoKitchen/app/models/kitchen/"
+ "/home/ignisf/Projects/libv8/release/armhf-linux/"
+ "/home/ignisf/Projects/fauna/app/models/door/actions/"
+ "/home/ignisf/Projects/fauna/spec/api/lights/"
+ "/home/ignisf/Projects/fauna/spec/api/door/"
+ "/home/ignisf/Projects/fauna/app/views/api/door/statuses/"
+ "/home/ignisf/Projects/fauna/app/views/api/lights/statuses/"
+ "/home/ignisf/Projects/fauna/app/views/api/lights/"
+ "/home/ignisf/Projects/fauna/app/models/door/status_manager/"
+ "/home/ignisf/Projects/fauna/config/environments/"
+ "/home/ignisf/Projects/fauna/app/models/lights/policy_manager/"
+ "/home/ignisf/Projects/fauna/app/models/door/"
+ "/home/ignisf/Projects/fauna/app/models/lights/"
+ "/home/ignisf/Projects/libv8/lib/libv8/"
+ "/home/ignisf/Projects/CoKitchen/app/models/shop/"
+ "/home/ignisf/Projects/CoKitchen/app/controllers/"
+ "/home/ignisf/Projects/CoKitchen/app/views/shop/delivery_hubs/"
+ "/home/ignisf/Projects/CoKitchen/db/migrate/"
+ "/home/ignisf/"
+ "/var/run/media/ignisf/Files/Projects/lede/"
+ "/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/files/"
+ "/var/run/media/ignisf/Files/Projects/lede/package/kernel/mwlwifi/"
+ "/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/patches/"
+ "/var/run/media/ignisf/Files/Projects/platform/spectralanalyzer/"
+ "/tmp/"
+ "/home/ignisf/Projects/libv8/spec/"
+ "/home/ignisf/Projects/libv8/ext/libv8/"
+ "/home/ignisf/Projects/mini_racer/ext/mini_racer_extension/"
+ "/home/ignisf/Projects/fauna/app/controllers/api/lights/"
+ "/home/ignisf/Projects/fauna/app/views/api/users/"
+ "/home/ignisf/Projects/fauna/app/controllers/api/"
+ "/home/ignisf/Projects/fauna/spec/api/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "about_us.slim"
+ "index.slim"
+ "management.html.slim"
+ "edit.html.slim"
+ "edit.slim"
+ "_publication.html.slim"
+ "_partner.slim"
+ "show.html.slim"
+ "show.slim"
+ "_form.html.slim"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ignisf/Projects/CoKitchen/app/views/public/home/" (22497 9089 549697 780000) "about_us.slim" "calendar.bg.slim" "index.slim" "contact.bg.slim" "./" "contact.en.slim" "../" "calendar.en.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/db/" (22497 12602 968167 252000) "./" "../" "development.sqlite3" "migrate/" "seeds.rb" "schema.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/db/migrate/" (22497 12133 89810 612000) "20160715121410_rename_hidden_to_hidden_from_site_flag_in_shop_meals.rb" "20150626150615_create_usda_food_groups.usda_nutrient_database_engine.rb" "20160120141749_add_date_to_showcase_events.rb" "20150626150619_create_usda_weights.usda_nutrient_database_engine.rb" "20150626132439_devise_create_users.rb" "20160429171831_fix_usda_weights.usda_nutrient_database_engine.rb" "20160314084712_add_pictures_to_culinary_profiles.rb" "20151221112154_create_photos.rb" "20151221011829_create_showcase_events.rb" "20150626150620_create_usda_footnotes.usda_nutrient_database_engine.rb" "20160411111614_add_orderable_to_shop_line_items.rb" "20150701123042_create_warehouse_suppliers.rb" "20160429171832_fix_usda_foods_nutrients.usda_nutrient_database_engine.rb" "20160617124135_create_delayed_jobs.rb" "20160111060014_create_shop_orders.rb" "20150626150622_add_timestamps_to_all_tables.usda_nutrient_database_engine.rb" "20160920123221_create_publications.rb" "20160115044719_remove_complete_from_shop_orders.rb" "20160115044407_add_completed_at_to_shop_orders.rb" "20160715121313_add_hidden_from_restaurant_flag_to_shop_meals.rb" "20160223024433_add_measurement_unit_to_shop_meals.rb" "20160120174947_add_published_to_showcase_events.rb" "20160731023320_add_more_fields_to_photos.rb" "20160429171829_add_referential_integrity.usda_nutrient_database_engine.rb" "20160907091534_add_discount_percent_to_shop_delivery_hub.rb" "20160209052834_add_phone_to_users.rb" "20160310200444_create_culinary_profiles.rb" "20160920115547_add_friend_tag_to_partners.rb" "20160110232848_rename_image_to_file_in_photos.rb" "20160316145341_add_position_to_photos.rb" "20160908112125_create_shop_discounts_discounts.rb" "20160411122603_create_shop_deliveries.rb" "20150701125002_create_warehouse_products.rb" "20160314092959_add_bullet_to_culinary_profiles.rb" "20160209052818_add_name_to_users.rb" "20160411111751_populate_orderable_in_existing_line_items.rb" "20150626150616_create_usda_foods.usda_nutrient_database_engine.rb" "20160411110753_add_delivery_price_to_shop_delivery_hubs.rb" "20160223015004_create_shop_measurement_units.rb" "20160110225537_create_kitchen_recipes.rb" "20160215053446_add_default_value_for_amount_to_shop_line_items.rb" "20160429171830_fix_footnotes_indexes.usda_nutrient_database_engine.rb" "20160111034954_create_shop_delivery_hubs.rb" "20160314122449_add_published_to_partners.rb" "20160111062926_add_daily_menu_id_to_shop_orders.rb" "20150626150618_create_usda_nutrients.usda_nutrient_database_engine.rb" "20150626133017_add_role_to_users.rb" "20160703203953_create_terms_of_service_agreements.rb" "20160119174406_add_client_name_and_phone_to_shop_orders.rb" "20160111040637_create_shop_daily_menus.rb" "20160310200907_create_specialities.rb" "20160111060339_create_shop_line_items.rb" "20160120142139_add_bullet_to_showcase_events.rb" "20160804072644_add_image_info_to_delivery_hubs.rb" "20160224103115_add_hidden_to_shop_meals.rb" "20160731024312_add_more_fields_to_partners.rb" "20160111041032_create_shop_meals.rb" "20160524094456_add_comment_field_to_shop_orders.rb" "20150701124134_create_warehouse_measurement_units.rb" "20151219151209_create_team_members.rb" "20160314112142_add_culinary_profile_id_to_kitchen_recipes.rb" "20150701125001_create_warehouse_purchases.rb" "20160314101132_add_more_fields_to_culinary_profiles.rb" "20151219151754_create_team_member_vcard_records.rb" "20160316095619_add_subscribed_to_daily_menu_to_users.rb" "20151221111113_create_partners.rb" "20150626150617_create_usda_foods_nutrients.usda_nutrient_database_engine.rb" "20160403143228_add_course_to_kitchen_recipes.rb" "20160111013131_create_kitchen_ingredient_amounts.rb" "20160215051711_create_shop_delivery_hub_access_grants.rb" "20160319192032_add_vcard_fields_to_team_members.rb" "20160907090055_add_email_domail_to_shop_delivery_hubs.rb" "20160403010023_create_join_table_ingredients_allergens.rb" "20160403005441_create_kitchen_allergens.rb" "20160403025430_add_animal_content_to_kitchen_ingredients.rb" "20160319192227_populate_team_member_vcard_fields.rb" "20150629133658_create_kitchen_ingredients.rb" "20160411112343_remove_meal_id_from_shop_line_items.rb" "20160215051342_add_public_to_shop_delivery_hubs.rb" "20160111064928_add_price_to_shop_meals.rb" "20150626150621_create_usda_source_codes.usda_nutrient_database_engine.rb" "20160223014721_add_portion_size_to_shop_meals.rb" "../" "./")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/public/showcase_events/" (22431 40898 810116 888000) "index.slim" "./" "../" "show.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/public/" (22393 33446 67299 837000) "daily_menus/" "subscriptions/" "deliveries/" "line_items/" "./" "completed_orders/" "../" "team_members/" "showcase_events/" "culinary_profiles/" "home/" "terms_of_service_agreements/" "orders/")
+
+ ("/home/ignisf/Projects/CoKitchen/config/" (22497 11738 674227 100000) "locales/" "deploy.rb" "application.rb" "boot.rb" "secrets.yml" "initializers/" "eb.yml" "./" "environments/" "routes.rb" "../" "secrets.yml.example" "environment.rb" "deploy/" "database.yml" "database.yml.production" "mailchimp.yml")
+
+ ("/home/ignisf/Projects/CoKitchen/config/locales/" (22497 12724 502121 846000) "simple_form.en.yml" "bg.yml" "./" "en.yml" "../" "devise.en.yml")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/layouts/public/" (22461 35534 996243 959000) "application.html.slim" "./" "../")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/layouts/" (22431 41000 983256 678000) "application.html.slim" "public/" "./" "../" "authentication.html.slim" "management.html.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/site/publications/" (22497 12237 760220 602000) "_publication.html.slim" "edit.html.slim" "./" "_no_records.html.slim" "../" "index.html.slim" "new.html.slim" "_form.html.slim" "show.html.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/static_pages/" (22340 8801 929300 376000) "events.slim" "nikulden.slim" "person.html.erb" "event.html.erb" "startup_safari.slim" "./" "pancakes.slim" "../" "meal_inner.html.erb" "christmas_cookies.slim" "demo_night.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/site/" (22497 11712 878928 420000) "partners/" "publications/" "./" "../" "team_members/" "showcase_events/")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/site/partners/" (22497 9215 59527 53000) "_no_records.slim" "index.slim" "index.js.erb" "new.slim" "edit.slim" "./" "../" "_form.slim" "_partner.slim" "show.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/controllers/site/" (22497 11666 527349 975000) "team_members_controller.rb" "publications_controller.rb" "./" "../" "showcase_events_controller.rb" "partners_controller.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/app/models/" (22497 11349 545734 712000) "photo.rb" "marital_status.rb" "concerns/" "team_member_vcard_record.rb" "kitchen/" "api.rb" "astrological_sign.rb" "user.rb" "publication.rb" "./" "subscription.rb" "shop/" "shop.rb" "../" "showcase_event.rb" "speciality.rb" "warehouse.rb" "slack_order_notification.rb" "partner.rb" "warehouse/" "team_member.rb" "culinary_profile.rb" ".keep" "terms_of_service_agreement.rb" "kitchen.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/app/controllers/" (22393 36034 627874 191000) "api/" "management_controller.rb" "concerns/" "kitchen/" "public/" "registrations_controller.rb" "site/" "./" "shop/" "../" "application_controller.rb" "sessions_controller.rb" "static_pages_controller.rb" "warehouse/" "confirmations_controller.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/app/controllers/public/" (22497 10091 188332 505000) "team_members_controller.rb" "daily_menus_controller.rb" "completed_orders_controller.rb" "orders_controller.rb" "culinary_profiles_controller.rb" "terms_of_service_agreements_controller.rb" "./" "line_items_controller.rb" "../" "showcase_events_controller.rb" "application_controller.rb" "home_controller.rb" "deliveries_controller.rb" "subscriptions_controller.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/" (22340 8801 929300 376000) "kitchen/" "public/" "site/" "./" "shop/" "../" "warehouse/" "shared/" "devise/" "static_pages/" "layouts/" "user_mailer/")
+
+ ("/home/ignisf/Projects/CoKitchen/app/" (22387 42367 476883 328000) "mailers/" "inputs/" "models/" "./" "../" "helpers/" "controllers/" "views/" "assets/")
+
+ ("/home/ignisf/Projects/CoKitchen/" (22434 61338 181521 717000) ".git/" "app/" ".ebextensions/" "config/" "log/" "public/" ".ruby-version" "Rakefile" "./" "lib/" "../" "Gemfile.lock" ".sass-cache/" "spec/" "Gemfile" "tmp/" ".gitignore" "recorder.rb" "config.ru" "vendor/" "pkg/" ".rspec" "db/" "bin/" "Capfile")
+
+ ("/home/ignisf/.files/.emacs.d/" (22496 31238 950700 740000) "session.101e3e6f5f3b615452147281147050273000000012170049" "gnome-theme.el" "session.1099dae5611cfa0e74146079285339242200000011570037" "session.1019310a53baf07cfb142368461084643300000006250033" "session.102e563d35650c9a7b143625220220931000000008000036" "session.1080c210d6b5c26b2714547992333343600000009160027" "session.10357fb9ec1875845014565060659134700000009680036" "session.10932f7b4a854cb6f3146127666078033400000011820031" "session.10fdb9773885b1561e145735577058212800000010080029" "session.10a7edd726dd3dd431143621060338263500000072580051" "session.1088add66638c38998144423469636853100000012900036" "session.10d453fec9a360b51214466420409645200000014590047" "session.105dadcb75fc2ad62f1431779818623900000023950034" "smex-items" "session.10e5639f80e335258714384407764146700000007750032" "init.el.before_ecb_2.40" "session.10bcf17cb952678566144473643043981200000015050042" "network-security.data" "session.10a6e9b8261998d866146391081183167100000010960036" "session.107428c300dd110b4c141898319119448500000005980029" "session.101e6ee9e8c4be8f84141556634073922800000008540065" "mediterranean-theme.el" "session.101e834179553a4ad5143697213637423400000008420042" "session.102e375158b6466a5a146980142475299600000224490045" "session.105858c69abf4b8227144827085097726100000015260039" "session.1022ca77e8c387d228146070738998621500000023300030" "session.10cdebc65482648b5d14479384116387800000015370031" "ac-comphist.dat" "session.10b9f03265e7e8bcf144818677815167700000014890042" "session.10b828fdee2bc2c97f144849529771710600000013810030" "session.10fb53429b495154ed145501926168167100000009380028" "session.1085e722c6774c3af3142367363198428200000005940061" "backups/" "session.1066154cd9ef3880e0141929362753705100000005800078" "session.10501ce85a9a6583fe145019122259800600000014130038" "session.103886ed4225acaaee142861461316665100000014470032" "eshell/" "session.10c38779ddf2bd94d6147052829169279200000011740038" "session.102db84d18ff4e2361145498067039935200000010700034" "session.109a9a1fbab43c0ce7142306635671211700000006140033" "session.10d2a84a5bcbf0046e145675694823652500000009180034" "session.107d2d90f22ab115ab145106087442909800000011680041" "session.10152e6ce980c0745a143630040249577700000021610029" "session.1057263c4fa9c1a0146553630573397300000244730030" "session.10b9aa4e6c5071b43b144943476790276100000014310041" "session.1071d10089a9699ca143707219035587300000008760031" "elpa/" "session.10f6c19b2d886feec9143236981551888800000006840030" "session.104b95eb23780b542e146686610828500500000014560043" "session.10a151fbfb97922df5145300138840612800000010860029" "session.105803c68450fde3ef144544271774362500000014180037" "session.10f6791fe57eee97a6145340293687396400000011220030" "ido.last" "session.10f24600185bdec11144889703810516800000014940030" "session.10d5a89162165c8d2145303274656285400000010870029" "session.1071cb90c2fe9392e8144587327036471000000014110033" "session.109393855d90cdaa50146196085768452700000011890064" "auto-save-list/" "emojis/" "session.10bda493871b6c47d8143193380924302800000189840029" "session.104f987574d73d3bff145764233943607800000012450058" "session.10afd7326d1cf604c8145053700429714500000084480035" "session.1026025bcee9bb20bb143602670264803100000007580050" "url/" "session.105eefc8188ccac78114529521716221400000009210028" "session.10c3c1f173b003aaaf14458084811376100000014230033" "session.10d9e6b74e15c284141390191754634700000157510135" "session.10153a9b51e18ddb3146954796795186700000011920104" "session.106b7b92fc83bf212d142047652456448100000005560051" "session.102d68b29faea59398145078206396097800000012360028" "session.1046b8b8daa84af041146408578514821900000013200028" "session.104f587a095b2e1fc514529256248163200000008930028" "init.el" "elisp/" "session.1040b1a3999859f111144622767592840500000015020035" "session.1044be87193868dcd146532390497858700000013920030" "ceti-theme.el" "session.102eb15ee7c8dca399146603061360414500000011670079" "session.10148f34b432bd3488143636657973296700000113240078" "session.102e37aeeff4e59de6144354999831902000000017470038" "session.10e336aa12963457a3143683022297370200000008300044" "session.10a35b6d5ea57b8666144414545035597000000013760041" "session.10f5d59054ad611683146436655470640000000047280048" "session.10d4813dfaa0a6358c14610013112546100000014510028" "session.107c86601f8a7980eb145177305474903500000008830054" ".mc-lists.el" ".gitignore" "session.105df2e775bf26668c146896209771517100000038160063" "session.10b7cee25cd6bff0fe146581917898355900000011810041" "session.1095739520a382e152143648054342534500000007990038" "session.10d22682cfce632a66145976203544149900000031080030" "session.10419f49869b4d7f3c144836595965747900000125040035" "session.10f4d42eb86a5d0400145030147312391900000018110029" "session.10ff33a9a44beaa2a8146788012511607500000011800064" "session.101ec205258be6d91b142384251414754500000006040029" "session.1085e722c6774c3af3142361222013481200000005940055" "gnome-dark-theme.el" "session.10852856c3f6662ef3145916418851979900000013180025" "vendor/" "session.1043c47de3ca622a23144180954720804200000008060043" "session.104aeb6298d4d80d77146358434224025800000100000028" "session.101f1bfe0978ce6a4b143961118779957400000009090040" "session.10b9c87ca75edf4a9d146792889477551100000011480033" "abbrev_defs" "session.10bedb5bfbe6a3f49e144118215523709200000008540032" "session.103a03c76a5419fa9f144317653188274100000012590038" "session.104431f5982099f74146585848246886500000014490035" "session.10e3752ea1236d82c6147230691982579100000011170088" "session.104477b1423a899485147361147878134300000013760038" "session.1041933aabf70f8c7f145668026423921900000011330031" "session.10fd627d474b576f64147316785973412300000010980051" "session.10e97f8e219487007f143628155564433300000007870050" "session.106e8eca6aef7982a2143712846182487700000049630043" "session.10be531c0a695e54ef147332938368078900000012210043" "session.10b8034650ba604568142064892357102700000147020044" "session.10e06fcf2a7e45ec3e146073405987982900000014010028" ".gitkeep" "session.10deb9f203ec79e8e6146408298899990100000013130029" "session.1072f83ef1ff413f14146063074956035800000012580031" "session.102cd5c774c6642910142858950731837500000008200036" "session.1039bb55bd7d290ba5146295155965984000000014360037" "session.10656976db2d4b3a87144961752256405600000014620036" "session.10416025d78796a97a145005906654467000000015050028" "session.1096f1164ea368495d143773707543991700000008850088" "../" "./")
+
+ ("/home/ignisf/" (22496 31437 590288 343000) ".texlive/" ".emacs.d/" ".bash_logout" ".travis/" ".sqlite_history" ".gphoto/" "fauna-bundle/" "bp.r" ".cargo/" ".byebug_history" ".ssh/" ".wget-hsts" ".puppetlabs/" "Sync/" ".gitconfig" "working.makefile" ".java/" ".thumbnails/" ".gnupg/" ".elmo/" "overlay-2016-07-21.tar.gz" ".lesshst" ".audacity-data/" "Public/" ".rnd" ".binwalk/" ".local/" ".addresses" "Registur_OOP.xls" ".mozilla/" ".python_history" "11rgen.yml" ".gimp-2.8/" "it-tour-backup-2016-08-13.tar.gz" "Music/" ".bashrc" ".ICEauthority" ".gtickrc" "backup-2016-07-21.tar.gz" ".xonotic/" ".movemail" ".config/" ".rbenv/" ".gem/" ".gnome2_private/" "policy.dot" ".pki/" ".files/" "11rgen.rb" ".wireless-regdb-ignisf.key.priv.pem" ".gnuradio/" "Downloads/" ".bash_profile" ".aws/" "Videos/" ".pgpass" ".nautilus/" "slug-overlay-2016-08-19.tar.gz" ".bundle/" ".gnuplot_history" ".gnupg-backup/" "hardware.txt" "aps" "bbb_sunflower_1080p_30fps_normal.mp4" ".wl" ".cups/" ".npm/" ".wireshark/" ".gr_fftw_wisdom" ".kodi/" "reportgen.rb" ".bash_history" "Projects/" ".thunderbird/" "11rgen.template" "Pictures/" "Templates/" ".mbrowse_bookmarks" ".guard_history" ".fonts/" ".pulse/" "tmp/" ".gnome/" "RES-2016-8-5-1470369184.resbackup" ".weechat/" ".android/" ".pgadmin3" "dvb.xspf" ".cache/" ".gnupg-backup2/" ".links/" "test/" "Mail/" ".node_repl_history" ".byebug_hist" "slug-backup-2016-08-19.tar.gz" ".pry_history" "RES-2016-9-12-1473630776-5_0_1.resbackup" ".vagrant.d" ".mime-example" "bbb_sunflower_1080p_60fps_normal.mp4" ".gstreamer-0.10/" "it-tour-overlay-2016-08-13.tar.gz" ".mbrowse" ".esd_auth" ".openvpn/" ".subversion/" "Desktop/" ".gnome2/" ".kde4/" ".gsutil/" ".purple/" ".folders" "Documents/" "passive.pcapng" "../" "./")
+
+ ("/home/ignisf/.files/.emacs.d/elisp/" (22496 30863 357863 546000) "init-rainbow.el" "init-diff-hl.el" "init-auctex.el" "init-newline.el" "init-rspec.el" "init-backups.el" "init-coffee.el" "init-multi-web.el" "init-rvm.el" "init-rust.el" "init-ecb.el" "init-haml.el" "init-yasnippet.el" "init-sass.el" "init-windmove.el" "./" "init-mark-multiple.el" "init-ruby-block.el" "init-delete.el" "init-enotify.el" "init-highlights.el" "init-yaml.el" "init-multiple-cursors.el" "init-erc.el" "init-appearance.el" "../" "init-smooth-scroll.el" "init-smex.el" "init-hexcolour.el" "init-packages.el" "init-magit.el" "init-org-redmine.el" "init-ruby.el" "init-style.el" "init-eshell.el" "init-ido.el" "init-fic.el" "init-windows.el" "init-twit.el" "init-expand-region.el")
+
+ ("/home/ignisf/.files/" (21574 24445 694852 0) ".emacs.d/" ".git/" "./" ".gitmodules" "../" ".gitignore")
+
+ ("/home/ignisf/Projects/mini_racer/" (22474 45234 135751 224000) ".git/" "Rakefile" "./" "lib/" "LICENSE.txt" "../" "benchmark/" "CHANGELOG" "Gemfile.lock" "Gemfile" "README.md" "tmp/" "mini_racer.gemspec" ".gitignore" ".travis.yml" "ext/" "test/" "CODE_OF_CONDUCT.md" "bin/")
+
+ ("/home/ignisf/Projects/libv8/" (22495 50823 611140 757000) ".git/" "libv8.gemspec" "appveyor.yml" "Rakefile" "./" "patches/" "lib/" ".gitmodules" "../" "thefrontside.png" "Gemfile.lock" "spec/" "Gemfile" "README.md" ".gitignore" ".travis.yml" "ext/" "vendor/" "pkg/" "release/" "CHANGELOG.md")
+
+ ("/tmp/" (22494 48809 895166 191000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".font-unix/" ".Test-unix/" "systemd-private-5fd02d8f98c747a796644b03e903d967-systemd-timesyncd.service-M6IQDU/" ".X1024-lock" "systemd-private-5fd02d8f98c747a796644b03e903d967-colord.service-Um3lY9/" ".X0-lock" ".esd-1000/" "tracker-extract-files.1000/" "hsperfdata_ignisf/" "yaourt-tmp-ignisf/" "grilo-plugin-cache-H61PNY/" "../" "./")
+
+ ("/home/ignisf/Projects/fauna/spec/controllers/door/" (22443 44120 822704 728000) "./" "status_notifications_controller_spec.rb" "../" "statuses_controller_spec.rb")
+
+ ("/home/ignisf/Projects/fauna/app/controllers/api/door/" (22490 57521 291347 565000) "actions_controller.rb" "./" "../" "statuses_controller.rb" ".#actions_controller.rb" "#actions_controller.rb#")
+
+ ("/home/ignisf/Projects/fauna/app/views/space_api/" (22419 60073 953328 383000) "status.json.jbuilder" "./" "../")
+
+ ("/home/ignisf/Projects/fauna/spec/api/" (22484 18820 534953 455000) "lights/" "door/" "users_controller_spec.rb" "./" "../")
+
+ ("/home/ignisf/Projects/libv8/ext/libv8/" (22474 55879 369828 528000) "make.rb" "builder.rb" "arch.rb" "location.rb" "./" "../" "paths.rb" "compiler.rb" "compiler/" "extconf.rb" "patcher.rb")
+
+ ("/home/ignisf/Projects/CoKitchen/app/models/shop/" (22481 27609 934793 833000) "delivery_hub_access_grant.rb" "meal.rb" "line_item.rb" "discounts/" "./" "discounts.rb" "../" "order.rb" "delivery.rb" "measurement_unit.rb" "daily_menu.rb" "delivery_hub.rb")
+
+ ("/home/ignisf/Projects/libv8/lib/libv8/" (22485 39777 139591 852000) "./" "../" "version.rb")
+
+ ("/home/ignisf/Projects/fauna/app/models/lights/" (22484 18452 750297 158000) "current_status.rb" "./" "../" "policy.rb" "policy_manager/")
+
+ ("/home/ignisf/Projects/fauna/app/views/api/lights/" (22484 18687 893273 876000) "./" "../" "statuses/")
+
+ ("/home/ignisf/Projects/fauna/app/views/api/lights/statuses/" (22484 18718 833665 640000) "./" "show.json.jbuilder" "../")
+
+ ("/home/ignisf/Projects/fauna/spec/api/lights/" (22484 18828 341718 982000) "./" "../" "statuses_controller_spec.rb")
+
+ ("/home/ignisf/Projects/fauna/app/models/door/actions/" (22484 24803 938425 2000) "unlock.rb" "./" "../" "lock.rb" "attempted_an_invalid_action.rb" "action.rb" "open.rb")
+
+ ("/home/ignisf/Projects/libv8/release/armhf-linux/" (22485 39741 99653 910000) "Vagrantfile" "./" "../" "vmlinuz" "initrd.img")
+
+ ("/home/ignisf/Projects/CoKitchen/app/models/kitchen/" (22486 39128 550091 237000) "recipe.rb" "allergen.rb" "ingredient_amount.rb" "./" "../" "ingredient.rb" "ingredient_search.rb" "recipe_statistics.rb" "recipe_search.rb")
+
+ ("/home/ignisf/Projects/" (22489 24076 546187 429000) "lights/" "spectrum_analyzer/" "fmi-wifi/" "driveGnuPlots.pl" "design/" "wpa_supplicant-2.5.tar.gz" "artwork/" "FFT_eval/" "clarion/" "devise-i18n/" "spectrum2/" "unbound-1.5.9/" "ath9k-spectral-scan/" "falsehopes/" "openfest-network/" "spectral" "weewx-config/" "therubyracer/" "polymer-rails-example/" "mtel.py" "#osmocom_spectrum_sense#" "osmocom_spectrum_sense" "Akrobat/" "netspeed/" "usda-nutrient-database/" "wifi-sentinel/" "cokitchen/" "v8/" "sofaskin/" "./" "gnome-mpv/" "image_compressor_pack/" "../" "openfest-2015-network/" "CoKitchen/" "wifi/" "openfest-wifi/" "scanoo/" ".vagrant/" "mailinabox/" "ath_spectral/" "noto-fonts/" "initlab-logo/" "mpv/" "openfest/" "CoKitchenTheme/" "wpa_supplicant-2.5/" "initLab/" "weewx/" "ports/" "fauna/" "mini_racer/" "libv8/" "OpenSpaceDirectory/" "osx/" "spectrum.pu/" "mail-gpg/" "sines.pl" "wireless-regdb/" "statute/")
+
+ ("/home/" (22426 58727 657959 868000) "vdr/" "./" "ignisf/" "../")
+
+ ("/home/ignisf/Projects/fauna/app/models/" (22484 18864 172172 719000) "lights/" "arp.rb" "lights.rb" "services/" "door/" "door.rb" "concerns/" "user.rb" "role.rb" "phone_number.rb" "network_device.rb" "rad_who.rb" "presence.rb" "./" "../" ".keep" "space_api.rb" "services.rb" "log_entry.rb")
+
+ ("/home/ignisf/Projects/fauna/config/" (22484 18737 833906 225000) "locales/" "space_api.yml" "database.yml.travis" "deploy.rb" "application.rb" "boot.rb" "secrets.yml" "initializers/" "./" "environments/" "routes.rb" "../" "secrets.yml.example" "environment.rb" "database.yml.example" "deploy/" "database.yml")
+
+ ("/home/ignisf/Projects/fauna/app/controllers/api/lights/" (22484 18603 755541 945000) "./" "../" "statuses_controller.rb")
+
+ ("/home/ignisf/Projects/fauna/app/models/door/status_manager/" (22427 37421 270367 205000) "init_lab.rb" "pesho.rb" "./" "error.rb" "buzzer.rb" "../" "dummy.rb")
+
+ ("/home/ignisf/Projects/fauna/" (22465 56332 257249 127000) ".git/" "app/" "config/" "log/" "public/" "coverage/" "Vagrantfile" "Rakefile" "./" "lib/" ".bundle/" ".gitmodules" "../" "Gemfile.lock" "spec/" "Gemfile" "README.md" "tmp/" ".gitignore" ".travis.yml" "config.ru" "vendor/" ".rspec" "db/" "bin/" "LICENSE" "Capfile" "Guardfile")
+
+ ("/home/ignisf/Projects/CoKitchen/app/models/concerns/" (22402 64285 810765 299000) "ingredient_containing.rb" "./" "../" "imageable.rb" ".keep")
+
+ ("/home/ignisf/Projects/CoKitchen/app/views/shop/delivery_hubs/" (22479 56051 838658 608000) "_delivery_hub.slim" "index.slim" "index.js.erb" "new.slim" "edit.slim" "./" "../" "_form.slim")
+
+ ("/home/ignisf/Projects/CoKitchen/app/controllers/shop/" (22479 55224 484331 883000) "daily_menus_controller.rb" "meals_controller.rb" "orders_controller.rb" "terms_of_service_agreements_controller.rb" "./" "../" "delivery_hubs_controller.rb")
+
+ ("/var/run/" (22477 46384 925233 489000) "initramfs/" "tmpfiles.d/" "udev/" "lvm/" "lock/" "mount/" "systemd/" "dmeventd-server" "dmeventd-client" "log/" "lvmetad.pid" "tlp/" "httpd/" "clamav/" "radiusd/" "libvirt/" "nscd/" "samba/" "screens/" "sudo/" "svnserve/" "user/" "utmp" "dbus/" "avahi-daemon/" "cups/" "watchdog.pid" "NetworkManager/" "gdm/" "sshd.pid" "udisks2/" "resolvconf/" "media/" "dhclient-wlp4s0.pid" "../" "./")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/" (22477 36585 432896 250000) "docs/" "feeds/" "config/" ".git/" "dl/" "BSDmakefile" "tools/" ".gitattributes" "key-build.pub" "target/" "files1/" ".gitignore" ".github/" "toolchain/" "scripts/" "LICENSE" "bin/" "build_dir/" "rules.mk" ".config.old" "include/" "README" "Makefile" "./" "key-build" "package/" ".config-c5" "feeds.conf.default" "tmp/" "../" "staging_dir/" "Config.in" ".config" "config.diff")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/files/" (22477 36911 223944 330000) "netifd.sh" "hostapd.sh.rej" "wpa_supplicant-p2p.config" "wpa_supplicant-full.config" "wpa_supplicant-mini.config" "hostapd-full.config" "hostapd-mini.config" "./" "multicall.c" "../" "wps-hotplug.sh")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/kernel/mwlwifi/" (22477 36549 817205 824000) "Makefile" "./" "../")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/kernel/mac80211/" (22473 59366 15756 629000) "scripts/" "Makefile" "./" "patches/" "../" "files/")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/patches/" (22476 19480 935774 227000) "350-nl80211_del_beacon_bss.patch" "002-mesh-Set-correct-secondary-channel-offset-if-HT40-is.patch" "330-nl80211_fix_set_freq.patch" "410-limit_debug_messages.patch" "001-4addr-fix-reconnecting-client-on-connection-lost.patch" "461-driver_nl80211-use-new-parameters-during-ibss-join.patch" "120-daemonize_fix.patch" "400-wps_single_auth_enc_type.patch" "340-reload_freq_change.patch" "430-hostapd_cli_ifdef.patch" "110-fix_parse_das_client.patch" "300-noscan.patch" "320-optional_rfkill.patch" "600-ubus_support.patch" "432-missing-typedef.patch" "310-rescan_immediately.patch" "100-mesh_mode_fix.patch" "470-survey_data_fallback.patch" "200-multicall.patch" "380-disable_ctrl_iface_mib.patch" "./" "431-wpa_cli_ifdef.patch" "420-indicate-features.patch" "../" "360-ctrl_iface_reload.patch" "370-ap_sta_support.patch" "450-scan_wait.patch" "130-no_eapol_fix.patch" "390-wpa_ie_cap_workaround.patch" "140-disable_bridge_packet_workaround.patch" "460-wpa_supplicant-add-new-config-params-to-be-used-with.patch" "480-iapp-set-so_reuseaddr-on-listening-socket.patch" "462-wpa_s-support-htmode-param.patch")
+
+ ("/var/run/media/ignisf/" (22477 34476 264968 791000) "Files/" "../" "./")
+
+ ("/var/run/media/" (22477 34476 264968 791000) "ignisf/" "../" "./")
+
+ ("/var/run/media/ignisf/Files/Projects/platform/spectralanalyzer/" (22475 20547 406787 479000) ".gitignore" "spectral.c" "Makefile" "./" "../" "spectral.h" "spectral")
+
+ ("/var/run/media/ignisf/Files/Projects/platform/" (22448 2508 767087 654000) "sysvar/" "setup.cfg" "sysmgr/" "monlog/" "wifiblaster/" "options.py" "libexperiments/" "logupload/" ".git/" "conman/" "hnvram/" "setup.py" "ginstall/" "registercheck/" "presterastats/" "devcert/" "wifi/" "cryptdev/" "libstacktrace/" ".gitignore" "experiment.py" "LICENSE" "dvbutils/" "jsonpoll/" "antirollback/" "waveguide/" "signing/" "gpio-mailbox/" "Makefile" "ledpattern/" "./" "experiment_testutils.py" "diags/" "../" "craftui/" "cache_warming/" "speedtest/" "base/" "cmds/" "spectralanalyzer/" "taxonomy/" "tvstat/" "py_mtd/")
+
+ ("/var/run/media/ignisf/Files/Projects/" (22451 53835 66932 127000) "it-tour/" "openfestwrt/" "flashrom/" "lede/" "Ceti-3.14-theme/" "openwrt/" "threemileisland/" "openwrt-initlab/" "statistics-homework/" "hobit/" "interlude/" "nltrace/" "clarion/" ".directory" "yavorgem/" "gcc-lainaro/" "tcpreplay-4.1.1.tar.gz" "spiss-essay/" "yavor/" "nslu/" "fauna/" "acerhdf_kmod/" "a_storm_of_swords/" "a_clash_of_kings/" "wpa-on-the-fly/" "hostap/" "staging/" "./" "ca.btroyan.info/" "../" "cv/" "rb-gtk-test/" "netspeed/" "latex-coursework/" "ice-and-fire/" "loan-agreement/" "platform/" "prpsp-huffman/" "tcpreplay-4.1.1/" "wnr834bv2-flash/" "lcdnurse-1.0.3.tar.gz" "openfestwrt-packages/" "ca.svetikliment.com/")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/hostapd/" (22439 40331 690709 576000) "Makefile" "./" "patches/" "../" "files/" "Config.in")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/services/" (22327 30525 37420 224000) "mdns/" "openvpn-easy-rsa/" "relayd/" "authsae/" "lldpd/" "dropbear/" "uhttpd/" "openvpn/" "./" "ipset-dns/" "hostapd/" "../" "dnsmasq/" "odhcpd/" "igmpproxy/" "samba36/" "ppp/" "ead/" "omcproxy/")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/network/" (22327 30525 37420 224000) "config/" "ipv6/" "services/" "utils/" "./" "../")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/base-files/" (22448 30999 3151 60000) "Makefile" "./" "../" "files/" "image-config.in")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/kernel/" (22435 48560 776728 877000) "acx-mac80211/" "mwlwifi/" "avila-wdt/" "linux/" "trelay/" "rotary-gpio-custom/" "button-hotplug/" "w1-gpio-custom/" "kmod-sched-cake/" "spi-gpio-custom/" "ath10k-ct/" "om-watchdog/" "mt76/" "mmc_over_gpio/" "mac80211/" "gpio-button-hotplug/" "ar7-atm/" "brcm2708-gpu-fw/" "lantiq/" "./" "../" "broadcom-wl/" "ep80579-drivers/" "rtc-rv5c386a/" "wrt55agv2-spidevs/" "i2c-gpio-custom/")
+
+ ("/var/run/media/ignisf/Files/Projects/lede/package/" (22435 48560 810062 166000) "system/" "feeds/" "firmware/" "devel/" "libs/" "kernel/" "boot/" "network/" "Makefile" "utils/" "./" "../" "base-files/")
+
+ ("/var/run/media/ignisf/Files/Projects/staging/" (22465 37135 426858 664000) "docs/" "feeds/" "config/" ".git/" "dl/" "BSDmakefile" "tools/" ".gitattributes" "key-build.pub" "target/" ".gitignore" "toolchain/" "scripts/" "LICENSE" "bin/" "build_dir/" "rules.mk" ".config.old" "include/" "README" "Makefile" "./" "key-build" "package/" "feeds.conf.default" "tmp/" "../" "staging_dir/" "Config.in" ".config")
+
+ ("/var/run/media/ignisf/Files/" (22424 46863 593311 199000) "Projects/" "shit/" "Virtual Machines/" ".vagrant.d/" ".Trash-1000/" "arm/" "CoKitchen Backup/" "Downloads/" "./" "../" "Backups/" "libvirt/" "debian8-arm.qcow2" "lost+found/" "Music/" "lol.iso")
+
+ ("/var/" (22332 30291 729629 273000) "net-snmp/" "local/" "log/" "mail/" "games/" "spool/" "./" "lib/" "../" "lock/" "cache/" "run/" "tmp/" ".updated" "db/" "opt/" "abs/" "empty/")
+
+ ("/home/ignisf/Projects/libv8/spec/" (22474 45488 524997 712000) "location_spec.rb" "./" "compiler_spec.rb" "spec_helper.rb" "../" "compiler/" "support/")
+
+ ("/home/ignisf/Projects/libv8/ext/" (21913 11970 171169 654000) "./" "../" "libv8/")
+
+ ("/home/ignisf/Projects/mini_racer/ext/mini_racer_extension/" (22474 44534 384500 415000) "./" "../" "extconf.rb" "mini_racer_extension.cc")
+
+ ("/home/ignisf/Projects/mini_racer/ext/" (22362 62871 247554 610000) "./" "mini_racer_extension/" "../")
+
+ ("/home/ignisf/Projects/libv8/lib/" (21913 11970 171169 654000) "./" "../" "libv8.rb" "libv8/")
+
+ ("/home/ignisf/Projects/fauna/app/models/lights/policy_manager/" (22443 44120 819371 398000) "init_lab.rb" "./" "error.rb" "../" "dummy.rb")
+
+ ("/home/ignisf/Projects/fauna/app/views/api/" (22464 43147 728345 581000) "door/" "./" "../" "users/")
+
+ ("/home/ignisf/Projects/fauna/app/views/api/users/" (22464 44977 849919 111000) "present.json.jbuilder" "./" "../")
+
+ ("/home/ignisf/Projects/fauna/app/controllers/api/" (22464 45084 999825 816000) "lights/" "door/" "./" "../" "application_controller.rb" "users_controller.rb")
+
+ ("/home/ignisf/Projects/fauna/app/views/api/door/" (22464 37905 30200 337000) "./" "../" "statuses/")
+
+ ("/home/ignisf/Projects/fauna/app/controllers/lights/" (22443 44120 816038 69000) "policies_controller.rb" "./" "../" "statuses_controller.rb")
+
+ ("/home/ignisf/Projects/fauna/spec/api/door/" (22464 40887 560732 418000) "./" "../" "statuses_controller_spec.rb")
+
+ ("/home/ignisf/Projects/fauna/spec/" (22464 40533 91161 60000) "api/" "models/" "factories/" "authorizers/" "./" "spec_helper.rb" "../" "helpers/" "controllers/" "features/" "decorators/" "rails_helper.rb" "routing/" "support/")
+
+ ("/home/ignisf/Projects/fauna/.git/" (22464 40029 478438 574000) "logs/" "hooks/" "branches/" "config" "COMMIT_EDITMSG" "refs/" "ORIG_HEAD" "index" "HEAD" "./" "svn/" "../" "packed-refs" "objects/" "description" "FETCH_HEAD" "info/")
+
+ ("/home/ignisf/Projects/fauna/app/models/services/" (22443 44120 819371 398000) "./" "irc_bot_spammer.rb" "../" "irc_spammer.rb")
+
+ ("/home/ignisf/Projects/fauna/app/views/doorkeeper/authorizations/" (22443 44120 819371 398000) "new.html.erb" "./" "show.html.erb" "../" "error.html.erb")
+
+ ("/home/ignisf/Projects/fauna/app/controllers/oauth/" (22443 44120 816038 69000) "./" "../" "applications_controller.rb")
+
+ ("/home/ignisf/Projects/fauna/db/" (22464 39825 808700 925000) "development-backup.sqlite3" "./" "test.sqlite3" "../" "development.sqlite3" "migrate/" "seeds.rb" "schema.rb")
+
+ ("/home/ignisf/Projects/fauna/config/initializers/" (22443 44120 822704 728000) "mime_types.rb" "inflections.rb" "simple_form_bootstrap.rb" "wrap_parameters.rb" "rolify.rb" "authority.rb" "assets.rb" "./" "../" "doorkeeper.rb" "filter_parameter_logging.rb" "session_store.rb" "devise.rb" "simple_form.rb" "space_api.rb" "cookies_serializer.rb" "door_status_manager.rb" "backtrace_silencers.rb")
+
+ ("/home/ignisf/Projects/fauna/config/locales/" (22443 49985 773352 255000) "doorkeeper.bg.yml" "simple_form.en.yml" "bg.yml" "./" "en.yml" "../" "simple_form.bg.yml" "devise.en.yml" "bg.rb" "doorkeeper.en.yml")
+
+ ("/home/ignisf/Projects/fauna/app/views/doorkeeper/applications/" (22443 52880 623480 463000) "new.html.erb" "edit.html.erb" "index.html.erb" "./" "_form.html.erb" "show.html.erb" "../" "_application.html.erb")
+
+ ("/home/ignisf/Projects/fauna/app/views/network_devices/" (22420 10209 439100 188000) "_network_device.html.slim" "edit.html.slim" "./" "../" "index.html.slim" "new.html.slim" "_form.html.slim")
+
+ ("/var/run/media/ignisf/Files/Projects/hostap/src/fst/" (22444 33687 598991 258000) "fst_group.h" "fst_internal.h" "fst_iface.c" "fst_ctrl_aux.h" "fst.h" "fst_ctrl_iface.h" "fst_iface.h" "Makefile" "./" "../" "fst_session.c" "fst_session.h" "fst_ctrl_iface.c" "fst_group.c" "fst_ctrl_aux.c" "fst_defs.h" "fst_ctrl_defs.h" "fst.c")
+
+ ("/var/run/media/ignisf/Files/Projects/staging/target/linux/ar71xx/image/" (22452 6765 200134 736000) "lzma-loader/" "legacy-devices.mk" "#generic.mk#" "ubinize-nbg6716.ini" "tp-link.mk" "legacy.mk" "ubnt.mk" "Makefile" "ubinize-wndr4300.ini" "./" "../" "generic.mk" "nand.mk")
+
+ ("/home/ignisf/Projects/falsehopes/_posts/" (22462 55078 884444 274000) "2016-04-15-bimetric-pcards.markdown" "2014-11-09-openfest-wifi.markdown" "./" "2016-08-24-roaming-and-steering.md" "../" "2015-10-28-http2.markdown" "2015-10-28-letsencrypt.markdown")
+
+ ("/home/ignisf/Projects/CoKitchen/app/helpers/" (22461 35844 406459 791000) "application_helper.rb" "./" "../")
+
+ ("/home/ignisf/Projects/fauna/app/models/door/" (22464 39637 448968 945000) "status_manager.rb" "current_status.rb" "actions/" "./" "../" "status_notification.rb" "actions.rb" "status_manager/")
+
+ ("/home/ignisf/Projects/fauna/app/helpers/" (22464 39374 299406 272000) "lights_helper.rb" "door_status_helper.rb" "application_helper.rb" "./" "../" "fauna/")
+
+ ("/home/ignisf/Projects/fauna/config/environments/" (22464 39555 555762 441000) "development.rb" "./" "../" "test.rb" "production.rb")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

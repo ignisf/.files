@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
 (dolist (element (list "packages"
@@ -53,7 +60,12 @@
    (quote
     ("2b35d317deb6cb76cb238f7bd20a92c22bd6c847fb9d9c98a2ab9d3d5eaee29d" "859a0c355ee929b8468b6d27922bb1c5f5edf5874adbab2e9f5f92c4ef9ae2d1" "c151d00bfe6dbcea54d401da4d8ab7fdd7e2281b48c50fb2715756cfd5b0f262" "16a7351a584a99b716d5e6467407721e8ec4b8dcda3900533cbda4e5df9a3f1b" "320057586e31aa2c7ae27ec6bc26d026c756428e14e910524eaabc433db81f3f" "5c89742df942d659fd8d127c0825d0435e2ff17ba7eb80466b1b1afa3a268e3e" "2fa9c2cbfb75ba534769740b1d7f19352868389020a8269283ff5f4e68303a3d" "bd1decf956437ca3d667a55e1bbaaaa83af8bc3d998ef59c876b598336ab5614" "f99832d44b17692e7928e6aae61b3a8b112e45a1c0713c37dbbedeacba17d21e" "cb051b6baedc3422b1cdf5073620956c12d55166da441622d1bf2c10d31036f8" "9e1fce520a92d38c72febd2d0e2a0164443ae63b20041bef89a1b5d424a25973" "dd6af3f0bd0c7934ffaa9c51485fadc0022e157f3a6960a6a24df43d42d9f91f" "70cff0a723166c85446a560421947f671dbbebb8829c0e6e26fbc5073914d72c" "4e711922153cad56ea86c7a35aef7d2653d76b76f4717eda1229e0e0438d4fee" "39a42b9e2394a103b42eeea74d1912fcf77d20ed125183fbe28a64da9089e2b6" "d32a8d26e68f7d6d02b86750083b6b63365ccf02a315635c61e4e21e712fe9dc" "0f3da951162297f5ee42338c5cc52e4d06987691d3dcfe24cb879cce038ad8a8" "af5652fce72c40a4fed3f72ed82658e5bc587f41dac393d68fa6d78be11b1c81" "5b9edbec57f7b722d5fd77285bc0b9332210690d40030c0d537dd3f00a35bfea" "06cc095b12bc4fa5e9ed453d8421efc84f446a2002ad4cad7f6606a149f391f9" default)))
  '(ecb-options-version "2.40" t)
+ '(emojify-display-styles "unicode")
+ '(emojify-emoji-styles "unicode")
  '(fci-rule-color "#343d46")
+ '(package-selected-packages
+   (quote
+    (yard-mode yaml-mode web-mode web-beautify wanderlust vline twittering-mode tracwiki-mode toml-mode smooth-scroll smex slim-mode shift-text scss-mode sass-mode rvm rust-mode ruby-tools ruby-hash-syntax rspec-mode robe rinari request rbenv rainbow-delimiters plantuml-mode php-mode pcache paredit org-redmine noflet neotree mustache multiple-cursors mediawiki markdown-mode mark-multiple magit lua-mode logito less-css-mode json-mode jekyll-modes ido-vertical-mode ido-ubiquitous hyde htmlize hlinum hl-line+ highlight-blocks handlebars-mode graphviz-dot-mode gitignore-mode framemove flymake-yaml flymake-sass flymake-rust flymake-ruby flymake-haml flymake-css flymake-coffee fireplace fic-mode expand-region ess-R-data-view erc-image erc-hl-nicks enh-ruby-mode eimp ecukes ecb diff-hl coffee-mode bundler autopair auto-complete anything ace-jump-mode ace-jump-buffer)))
  '(ruby-block-highlight-face nil)
  '(send-mail-function (quote mailclient-send-it))
  '(vc-annotate-background nil)
